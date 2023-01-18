@@ -1,0 +1,5 @@
+Link to map
+https://www.google.com/maps/d/view?mid=19YZPsuqVH52S2agwpK0cM2c_Z9H2wzw&usp=sharing
+
+Embeded map
+<iframe src="https://www.google.com/maps/d/embed?mid=19YZPsuqVH52S2agwpK0cM2c_Z9H2wzw&ehbc=2E312F" width="640" height="480"></iframe>

@@ -15,7 +15,16 @@ https://YourDirectionsApiURLGoesHere
 ## Next paste the full JSON response to this query here:
 
 ```JSON
-PASTE_YOUR_JSON_RESULTS_HERE
+https://maps.googleapis.com/maps/api/directions/json
+  ?destination=Montreal
+  &origin=Toronto
+  &waypoints=optimize%3Atrue%7CBarossa%20Valley%2C%20SA%7CClare%2C%20SA%7CConnawarra%2C%20SA%7CMcLaren%20Vale%2C%20SA
+  &units=metric
+  &avoid=highways
+  &language=english
+  &mode=walking
+  &departure_time=now
+  &key=YOUR_API_KEY
 ```
 ____
 ## Rubric

@@ -9,22 +9,23 @@ Be creative and use multiple parameters from the API documentation to earn a top
 ## Directions URL
 
 ```
-https://YourDirectionsApiURLGoesHere
+https://maps.googleapis.com/maps/api/directions/json
+  ?destination=place_id%ChIJq6p6ZumM1YkRwlenRs5y5SY
+  &origin=place_id%ChIJl7SLjCAZ1YkRQC8tYGgdMhM
+  &waypoints=place_id%ChIJl5voBkgU1YkReaoPrqCAvLY|44.247%2C-78.858
+  &units=metric
+  &avoid=tolls
+  &traffic_model=optimistic
+  &language=english
+  &mode=bicycling
+  &departure_time=now
+  &key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 ```
 
 ## Next paste the full JSON response to this query here:
 
 ```JSON
-https://maps.googleapis.com/maps/api/directions/json
-  ?destination=Montreal
-  &origin=Toronto
-  &waypoints=optimize%3Atrue%7CBarossa%20Valley%2C%20SA%7CClare%2C%20SA%7CConnawarra%2C%20SA%7CMcLaren%20Vale%2C%20SA
-  &units=metric
-  &avoid=highways
-  &language=english
-  &mode=walking
-  &departure_time=now
-  &key=YOUR_API_KEY
+
 ```
 ____
 ## Rubric

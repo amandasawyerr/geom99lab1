@@ -12,11 +12,11 @@ Be creative and use multiple parameters from the API documentation to earn a top
 https://maps.googleapis.com/maps/api/directions/json
   ?destination=44.341%2C-78.743
   &origin=43.957%2C-78.977
-  &waypoints=44.240%2C-78.888|44.269%2C-78.798
-  &units=metric
+  &waypoints=44.239%2C-78.887|44.269%2C-78.798
+  &units=imperial
   &avoid=tolls
   &traffic_model=optimistic
-  &language=english
+  &language=french
   &mode=bicycling
   &departure_time=now
   &key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
@@ -64,17 +64,17 @@ https://maps.googleapis.com/maps/api/directions/json
          "legs" : [
             {
                "distance" : {
-                  "text" : "38.6 km",
-                  "value" : 38596
+                  "text" : "24.0 mi",
+                  "value" : 38640
                },
                "duration" : {
                   "text" : "2 hours 4 mins",
-                  "value" : 7439
+                  "value" : 7447
                },
                "end_address" : "543 Ramsey Rd, Little Britain, ON K0M 2C0, Canada",
                "end_location" : {
-                  "lat" : 44.23974210000001,
-                  "lng" : -78.88789179999999
+                  "lat" : 44.2398568,
+                  "lng" : -78.8873595
                },
                "start_address" : "59 Charest Pl, Whitby, ON L1M 2B2, Canada",
                "start_location" : {
@@ -84,7 +84,7 @@ https://maps.googleapis.com/maps/api/directions/json
                "steps" : [
                   {
                      "distance" : {
-                        "text" : "5.2 km",
+                        "text" : "3.3 mi",
                         "value" : 5240
                      },
                      "duration" : {
@@ -107,7 +107,7 @@ https://maps.googleapis.com/maps/api/directions/json
                   },
                   {
                      "distance" : {
-                        "text" : "2.5 km",
+                        "text" : "1.5 mi",
                         "value" : 2472
                      },
                      "duration" : {
@@ -131,7 +131,7 @@ https://maps.googleapis.com/maps/api/directions/json
                   },
                   {
                      "distance" : {
-                        "text" : "7.9 km",
+                        "text" : "4.9 mi",
                         "value" : 7868
                      },
                      "duration" : {
@@ -155,7 +155,7 @@ https://maps.googleapis.com/maps/api/directions/json
                   },
                   {
                      "distance" : {
-                        "text" : "2.9 km",
+                        "text" : "1.8 mi",
                         "value" : 2901
                      },
                      "duration" : {
@@ -179,7 +179,7 @@ https://maps.googleapis.com/maps/api/directions/json
                   },
                   {
                      "distance" : {
-                        "text" : "0.4 km",
+                        "text" : "0.2 mi",
                         "value" : 377
                      },
                      "duration" : {
@@ -202,7 +202,7 @@ https://maps.googleapis.com/maps/api/directions/json
                   },
                   {
                      "distance" : {
-                        "text" : "2.8 km",
+                        "text" : "1.7 mi",
                         "value" : 2791
                      },
                      "duration" : {
@@ -226,7 +226,7 @@ https://maps.googleapis.com/maps/api/directions/json
                   },
                   {
                      "distance" : {
-                        "text" : "0.1 km",
+                        "text" : "433 ft",
                         "value" : 132
                      },
                      "duration" : {
@@ -250,7 +250,7 @@ https://maps.googleapis.com/maps/api/directions/json
                   },
                   {
                      "distance" : {
-                        "text" : "11.3 km",
+                        "text" : "7.0 mi",
                         "value" : 11279
                      },
                      "duration" : {
@@ -274,21 +274,21 @@ https://maps.googleapis.com/maps/api/directions/json
                   },
                   {
                      "distance" : {
-                        "text" : "5.5 km",
-                        "value" : 5536
+                        "text" : "3.5 mi",
+                        "value" : 5580
                      },
                      "duration" : {
                         "text" : "17 mins",
-                        "value" : 995
+                        "value" : 1003
                      },
                      "end_location" : {
-                        "lat" : 44.23974210000001,
-                        "lng" : -78.88789179999999
+                        "lat" : 44.2398568,
+                        "lng" : -78.8873595
                      },
-                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eRamsey Rd\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eKawartha Lakes County Rd 28\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eRamsey Rd\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eKawartha Lakes County Rd 28\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
                      "maneuver" : "turn-right",
                      "polyline" : {
-                        "points" : "cq|lGdu{`Ne@uC_@eCKm@?AsAkIKm@c@oCAKeBgLUuA?AU_BiBqLm@}Dk@uD?Cc@sCIi@Ik@iCyPAEYmB]_CIi@?Ea@sCU{AIi@AEKq@e@cDuB{OEa@O}@U_BIo@U}AKo@Ko@_@oCKo@k@}DKo@k@}DKo@gDkUIo@EWw@gGKo@S_BIo@_@oCIo@CUEY?AU}AKo@_@oCUuAU_BKo@k@}DyA}JKo@cA}Ga@mCYoB[_CyCgTIe@c@kCi@_DE]qAyJWeBo@}DU_BKm@W_BIo@aBqKEYa@mCwE}\\mB_OIo@aAuH"
+                        "points" : "cq|lGdu{`Ne@uC_@eCKm@?AsAkIKm@c@oCAKeBgLUuA?AU_BiBqLm@}Dk@uD?Cc@sCIi@Ik@iCyPAEYmB]_CIi@?Ea@sCU{AIi@AEKq@e@cDuB{OEa@O}@U_BIo@U}AKo@Ko@_@oCKo@k@}DKo@k@}DKo@gDkUIo@EWw@gGKo@S_BIo@_@oCIo@CUEY?AU}AKo@_@oCUuAU_BKo@k@}DyA}JKo@cA}Ga@mCYoB[_CyCgTIe@c@kCi@_DE]qAyJWeBo@}DU_BKm@W_BIo@aBqKEYa@mCwE}\\mB_OIo@qA_KG_@"
                      },
                      "start_location" : {
                         "lat" : 44.2243361,
@@ -302,12 +302,12 @@ https://maps.googleapis.com/maps/api/directions/json
             },
             {
                "distance" : {
-                  "text" : "8.9 km",
-                  "value" : 8861
+                  "text" : "5.5 mi",
+                  "value" : 8817
                },
                "duration" : {
                   "text" : "26 mins",
-                  "value" : 1583
+                  "value" : 1575
                },
                "end_address" : "1313-1233 Zion Rd, Little Britain, ON K0M 2C0, Canada",
                "end_location" : {
@@ -316,18 +316,18 @@ https://maps.googleapis.com/maps/api/directions/json
                },
                "start_address" : "543 Ramsey Rd, Little Britain, ON K0M 2C0, Canada",
                "start_location" : {
-                  "lat" : 44.23974210000001,
-                  "lng" : -78.88789179999999
+                  "lat" : 44.2398568,
+                  "lng" : -78.8873595
                },
                "steps" : [
                   {
                      "distance" : {
-                        "text" : "0.6 km",
-                        "value" : 571
+                        "text" : "0.3 mi",
+                        "value" : 527
                      },
                      "duration" : {
                         "text" : "2 mins",
-                        "value" : 102
+                        "value" : 94
                      },
                      "end_location" : {
                         "lat" : 44.2412206,
@@ -335,17 +335,17 @@ https://maps.googleapis.com/maps/api/directions/json
                      },
                      "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e on \u003cb\u003eRamsey Rd\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eKawartha Lakes County Rd 28\u003c/b\u003e toward \u003cb\u003eBeacroft Rd\u003c/b\u003e",
                      "polyline" : {
-                        "points" : "kq_mGhxn`NOiAwGqg@"
+                        "points" : "cr_mG~tn`NoGqf@"
                      },
                      "start_location" : {
-                        "lat" : 44.23974210000001,
-                        "lng" : -78.88789179999999
+                        "lat" : 44.2398568,
+                        "lng" : -78.8873595
                      },
                      "travel_mode" : "BICYCLING"
                   },
                   {
                      "distance" : {
-                        "text" : "1.4 km",
+                        "text" : "0.9 mi",
                         "value" : 1381
                      },
                      "duration" : {
@@ -369,7 +369,7 @@ https://maps.googleapis.com/maps/api/directions/json
                   },
                   {
                      "distance" : {
-                        "text" : "6.9 km",
+                        "text" : "4.3 mi",
                         "value" : 6909
                      },
                      "duration" : {
@@ -397,7 +397,7 @@ https://maps.googleapis.com/maps/api/directions/json
             },
             {
                "distance" : {
-                  "text" : "14.1 km",
+                  "text" : "8.8 mi",
                   "value" : 14114
                },
                "duration" : {
@@ -417,7 +417,7 @@ https://maps.googleapis.com/maps/api/directions/json
                "steps" : [
                   {
                      "distance" : {
-                        "text" : "0.8 km",
+                        "text" : "0.5 mi",
                         "value" : 822
                      },
                      "duration" : {
@@ -440,7 +440,7 @@ https://maps.googleapis.com/maps/api/directions/json
                   },
                   {
                      "distance" : {
-                        "text" : "2.9 km",
+                        "text" : "1.8 mi",
                         "value" : 2895
                      },
                      "duration" : {
@@ -464,7 +464,7 @@ https://maps.googleapis.com/maps/api/directions/json
                   },
                   {
                      "distance" : {
-                        "text" : "4.5 km",
+                        "text" : "2.8 mi",
                         "value" : 4453
                      },
                      "duration" : {
@@ -488,7 +488,7 @@ https://maps.googleapis.com/maps/api/directions/json
                   },
                   {
                      "distance" : {
-                        "text" : "1.2 km",
+                        "text" : "0.8 mi",
                         "value" : 1245
                      },
                      "duration" : {
@@ -512,7 +512,7 @@ https://maps.googleapis.com/maps/api/directions/json
                   },
                   {
                      "distance" : {
-                        "text" : "4.3 km",
+                        "text" : "2.7 mi",
                         "value" : 4265
                      },
                      "duration" : {
@@ -536,7 +536,7 @@ https://maps.googleapis.com/maps/api/directions/json
                   },
                   {
                      "distance" : {
-                        "text" : "0.1 km",
+                        "text" : "397 ft",
                         "value" : 121
                      },
                      "duration" : {
@@ -560,7 +560,7 @@ https://maps.googleapis.com/maps/api/directions/json
                   },
                   {
                      "distance" : {
-                        "text" : "0.2 km",
+                        "text" : "0.1 mi",
                         "value" : 220
                      },
                      "duration" : {
@@ -584,7 +584,7 @@ https://maps.googleapis.com/maps/api/directions/json
                   },
                   {
                      "distance" : {
-                        "text" : "39 m",
+                        "text" : "128 ft",
                         "value" : 39
                      },
                      "duration" : {
@@ -608,7 +608,7 @@ https://maps.googleapis.com/maps/api/directions/json
                   },
                   {
                      "distance" : {
-                        "text" : "54 m",
+                        "text" : "177 ft",
                         "value" : 54
                      },
                      "duration" : {
@@ -648,6 +648,17 @@ https://maps.googleapis.com/maps/api/directions/json
    "status" : "OK"
 }
 ```
+Additional Comments
+1. This routes my path from home (not exact) to school 
+2. The origin, waypoints, and destination are where I see different birds on my way to school
+3. Origin - Brooklin, ON
+    The Dark Eyed Junco - https://www.allaboutbirds.org/guide/Dark-eyed_Junco
+4. Waypoint 1 - A tree, and the seemingly prefered perch of a red tailed hawk - https://www.google.com/maps/@44.2397627,-78.8872173,3a,75y,357.19h,90.41t/data=!3m6!1e1!3m4!1sj-d7ND_jFmRkDPKjz1jRtA!2e0!7i16384!8i8192
+    The Red Tailed Hawk - https://www.allaboutbirds.org/guide/Red-tailed_Hawk/id
+5. Waypoint 2 - A hobby farm - https://www.google.com/maps/place/311+Valentia+Rd,+Little+Britain,+ON+K0M+2C0/@44.2609415,-78.8094385,3a,75y,257.93h,89.43t/data=!3m6!1e1!3m4!1sgt9ao22I3wyDovYpchXG4g!2e0!7i16384!8i8192!4m5!3m4!1s0x89d571b3823740e1:0x687ae6e131c24116!8m2!3d44.2608223!4d-78.8095223
+    The American Pekins - https://www.birds-of-north-america.net/Pekin_Duck.html
+6. Destination - Fleming College Frost Campus
+    The American Crow - https://www.allaboutbirds.org/guide/American_Crow/overview#
 ____
 ## Rubric
 

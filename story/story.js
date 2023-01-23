@@ -2,8 +2,8 @@
 // This function creates a map and adds markers that are images 
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 9,
-    center: { lat: 44.1, lng: -78.9 },
+    zoom: 10,
+    center: { lat: 44.17, lng: -78.9 },
   });
   const junco =
     "https://amandasawyerr.github.io/geom99lab1/story/Junco.png";

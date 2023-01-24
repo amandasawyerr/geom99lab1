@@ -2,7 +2,7 @@
 // This Map shows my route to school and the birds I typically see along the way
 // The image markers, are modified from https://developers.google.com/maps/documentation/javascript/markers#maps_icon_simple-javascript
 // The info windows, are modified from the example given on Google Maps GitHub, https://github.com/googlemaps/js-samples/tree/main/samples/infowindow-simple-max
-
+// The route was modified from another example given on Google Maps GitHub, https://github.com/googlemaps/js-samples/blob/main/samples/directions-draggable/index.ts
 // Creating the map
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
@@ -56,7 +56,7 @@ function initMap() {
   const junco =
     "https://amandasawyerr.github.io/geom99lab1/story/Junco.png";
   const juncoMarker = new google.maps.Marker({
-    position: { lat: 43.957, lng: -78.972 },
+    position: { lat: 43.959, lng: -78.961 },
     map,
     icon: junco,
    });
@@ -120,6 +120,57 @@ function initMap() {
       map,
   });
   });
+ 
+ // Adding in the route
+  const directionsService = new google.maps.DirectionsService();
+  const directionsRenderer = new google.maps.DirectionsRenderer({
+    map,
+    panel: document.getElementById("panel") as HTMLElement,
+  });
+ displayRoute(
+    "Brooklin, ON",
+    "Lindsay, ON",
+    directionsService,
+    directionsRenderer
+  );
+}
+function displayRoute(
+  origin: string,
+  destination: string,
+  service: google.maps.DirectionsService,
+  display: google.maps.DirectionsRenderer
+) {
+  service
+    .route({
+      origin: origin,
+      destination: destination,
+      travelMode: google.maps.TravelMode.DRIVING,
+      avoidTolls: true,
+    })
+    .then((result: google.maps.DirectionsResult) => {
+      display.setDirections(result);
+    })
+    .catch((e) => {
+      alert("Could not display directions due to: " + e);
+    });
+}
+function computeTotalDistance(result: google.maps.DirectionsResult) {
+  let total = 0;
+  const myroute = result.routes[0];
+
+  if (!myroute) {
+    return;
+  }
+  for (let i = 0; i < myroute.legs.length; i++) {
+    total += myroute.legs[i]!.distance!.value;
+  }
+  total = total / 1000;
+  (document.getElementById("total") as HTMLElement).innerHTML = total + " km";
+}
+declare global {
+  interface Window {
+    initMap: () => void;
+  }
 }
 
 window.initMap = initMap;

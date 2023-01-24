@@ -14,7 +14,7 @@ function initMap() {
   const juncoString =
     '<div">' +
     '<h1>Dark-Eyed Junco</h1>' +
-    "<p>These are the birds I see on the way to school.</p>" +
+    "<p>The Dark-Eyed Juncos are sparrow-like birds that are extremely common in this area during the winter months, as they are one of the most abundant forest birds in North America. Easily identifiable by their grey bodies, white tail feathers, and pale-yellow beaks.</p>" +
     "</div>";
   const juncowindow = new google.maps.InfoWindow({
     content: juncoString,
@@ -22,7 +22,7 @@ function initMap() {
   const hawkString =
     '<div">' +
     '<h1>Red-Tailed Hawk</h1>' +
-    "<p>These are the birds I see on the way to school.</p>" +
+    "<p>The Red-Tailed Hawk resides in Southern Ontario year-round. Often seen soaring above open fields searching for prey, they are arguably the most common hawk throughout North America.</p>" +
     "</div>";
   const hawkwindow = new google.maps.InfoWindow({
     content: hawkString,
@@ -30,7 +30,7 @@ function initMap() {
   const duckString =
     '<div">' +
     '<h1>American Pekin</h1>' +
-    "<p>These are the birds I see on the way to school.</p>" +
+    "<p>The American Pekin is a domestic bird commonly seen in hobby farms and more serious farming establishments. Domesticated for their meat, these ducks were originally bred in China before making their appearance in North America.</p>" +
     "</div>";
   const duckwindow = new google.maps.InfoWindow({
     content: duckString,
@@ -38,7 +38,7 @@ function initMap() {
   const crowString =
     '<div">' +
     '<h1>American Crow</h1>' +
-    "<p>These are the birds I see on the way to school.</p>" +
+    "<p>A beautiful black bird known by all, the American Crow is large and intelligent. They are known to eat almost anything and live almost anywhere, where there is food available, within North America. </p>" +
     "</div>";
   const crowwindow = new google.maps.InfoWindow({
     content: crowString,

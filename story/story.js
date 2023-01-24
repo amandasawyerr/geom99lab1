@@ -22,7 +22,7 @@ function initMap() {
   const gullString =
     '<div">' +
     '<h1>Ring-Billed Gull</h1>' +
-    "<p>The Red-Tailed Hawk resides in Southern Ontario year-round. Often seen soaring above open fields searching for prey, they are arguably the most common hawk throughout North America.</p>" +
+    "<p>The Ring-Billed Gull is a medium sized gull common to North America, especially in the warmer months. Often around humans, these are opportunistic omnivores that are not afraid of snatching a snack. Like other gulls, the Ring-Billed Gull is a species commonly seen in numbers.</p>" +
     "</div>";
   const gullwindow = new google.maps.InfoWindow({
     content: gullString,

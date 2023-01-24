@@ -19,6 +19,14 @@ function initMap() {
   const juncowindow = new google.maps.InfoWindow({
     content: juncoString,
   });
+  const gullString =
+    '<div">' +
+    '<h1>Ring-Billed Gull</h1>' +
+    "<p>The Red-Tailed Hawk resides in Southern Ontario year-round. Often seen soaring above open fields searching for prey, they are arguably the most common hawk throughout North America.</p>" +
+    "</div>";
+  const gullwindow = new google.maps.InfoWindow({
+    content: gullString,
+  });
   const hawkString =
     '<div">' +
     '<h1>Red-Tailed Hawk</h1>' +
@@ -52,6 +60,13 @@ function initMap() {
     map,
     icon: junco,
    });
+  const gull =
+    "https://amandasawyerr.github.io/geom99lab1/story/Crow.png";
+  const gullMarker = new google.maps.Marker({
+    position: { lat: 44.109, lng: -78.967 },
+    map,
+    icon: gull,
+  });
   const crow =
     "https://amandasawyerr.github.io/geom99lab1/story/Crow.png";
   const crowMarker = new google.maps.Marker({
@@ -84,6 +99,12 @@ function initMap() {
   hawkMarker.addListener("click", () => {
     hawkwindow.open({
       anchor: hawkMarker,
+      map,
+  });
+  });
+  gullMarker.addListener("click", () => {
+    gullwindow.open({
+      anchor: gullMarker,
       map,
   });
   });

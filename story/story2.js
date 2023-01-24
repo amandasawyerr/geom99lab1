@@ -120,6 +120,6 @@ function initMap() {
       map,
   });
   });
-
+}
 
 window.initMap = initMap;

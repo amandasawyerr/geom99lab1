@@ -61,7 +61,7 @@ function initMap() {
     icon: junco,
    });
   const gull =
-    "https://amandasawyerr.github.io/geom99lab1/story/Crow.png";
+    "https://amandasawyerr.github.io/geom99lab1/story/Gull.png";
   const gullMarker = new google.maps.Marker({
     position: { lat: 44.109, lng: -78.967 },
     map,

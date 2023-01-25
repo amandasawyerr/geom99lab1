@@ -1,3 +1,4 @@
+// This file has a route, when I try to link to this file on an html the map won't load :(
 // Example modified from Google Maps Platform and Google Maps GitHub JS Samples page
 // This Map shows my route to school and the birds I typically see along the way
 // The image markers, are modified from https://developers.google.com/maps/documentation/javascript/markers#maps_icon_simple-javascript

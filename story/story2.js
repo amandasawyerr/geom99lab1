@@ -53,35 +53,35 @@ function initMap() {
   
   // Creating the markers, assigning images
   const junco =
-    "https://amandasawyerr.github.io/geom99lab1/story/Junco.png";
+    "Junco.png";
   const juncoMarker = new google.maps.Marker({
     position: { lat: 43.959, lng: -78.961 },
     map,
     icon: junco,
    });
   const gull =
-    "https://amandasawyerr.github.io/geom99lab1/story/Gull.png";
+    "Gull.png";
   const gullMarker = new google.maps.Marker({
     position: { lat: 44.109, lng: -78.967 },
     map,
     icon: gull,
   });
   const crow =
-    "https://amandasawyerr.github.io/geom99lab1/story/Crow.png";
+    "Crow.png";
   const crowMarker = new google.maps.Marker({
     position: { lat: 44.342, lng: -78.741 },
     map,
     icon: crow,
   });
   const hawk =
-    "https://amandasawyerr.github.io/geom99lab1/story/Hawk.png";
+    "Hawk.png";
   const hawkMarker = new google.maps.Marker({
     position: { lat: 44.241, lng: -78.888 },
     map,
     icon: hawk,
   });
   const duck =
-    "https://amandasawyerr.github.io/geom99lab1/story/Duck.png";
+    "Duck.png";
   const duckMarker = new google.maps.Marker({
     position: { lat: 44.269, lng: -78.798 },
     map,

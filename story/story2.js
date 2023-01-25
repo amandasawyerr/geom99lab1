@@ -2,7 +2,6 @@
 // This Map shows my route to school and the birds I typically see along the way
 // The image markers, are modified from https://developers.google.com/maps/documentation/javascript/markers#maps_icon_simple-javascript
 // The info windows, are modified from the example given on Google Maps GitHub, https://github.com/googlemaps/js-samples/tree/main/samples/infowindow-simple-max
-// The route was modified from another example given on Google Maps GitHub, https://github.com/googlemaps/js-samples/blob/main/samples/directions-draggable/index.ts
 // Creating the map
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {

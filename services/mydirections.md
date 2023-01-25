@@ -648,7 +648,7 @@ https://maps.googleapis.com/maps/api/directions/json
    "status" : "OK"
 }
 ```
-Additional Comments
+## Additional Comments
 1. This routes my path from home (not exact) to school 
 2. The origin, waypoints, and destination are where I see different birds on my way to school
 3. Origin - Brooklin, ON
